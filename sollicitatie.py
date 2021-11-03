@@ -12,7 +12,7 @@ Vraag11 = input('Hoe zwaar bent u?')
 Vraag12 = input('Hoelang bent u?')
 Vraag13 = input('Heeft u Certificaat “Overleven met gevaarlijk personeel?')
 
-if Vraag1 <=4 or Vraag2 <=5 or Vraag3 <=3 or Vraag4 == "n" or Vraag
+if Vraag1 <=4 or Vraag2 <=5 or Vraag3 <=3 or Vraag4 == "n" or Vraag5 == "n" or Vraag6 == "no" or Vraag7 == "no"
 #Meer dan 4 jaar praktijkervaring met dieren-dressuur OF meer dan 5 jaar ervaring met jongleren OF meer dan 3 jaar praktijkervaring met acrobatiek
 #In bezit van een Diploma MBO-4 ondernemen
 #In bezit van een geldig Vrachtwagen rijbewijs
