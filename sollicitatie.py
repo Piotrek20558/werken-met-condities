@@ -1,3 +1,4 @@
+Vraag0 = input('Wat is uw naam?')
 Vraag1 = int(input('Hoeveel jaar praktijkervaring heeft u met dieren-dressuur?'))
 Vraag2 = int(input('Hoeveel jaar ervaring heeft u met jongleren?'))
 Vraag3 = int(input('Hoeveel praktijkervaring heeft u met acrobatiek?'))
@@ -12,8 +13,10 @@ else:
 Vraag11 = int(input('Hoe zwaar bent u?'))
 Vraag12 = int(input('Hoelang bent u?'))
 Vraag13 = input('Heeft u Certificaat “Overleven met gevaarlijk personeel?')
+Vraag14 = input('Hoe oud bent u?')
+Vraag15 = input('Hoeveel jaar verwacht u hier te gaan werken?')
 
-if int(Vraag1) >=4 or int(Vraag2) >=5 or int(Vraag3) >=3 or Vraag4 == "y" or Vraag5 == "y" or Vraag6 == "y" or Vraag7 == "y" or Vraag8 >10 or Vraag10 >20 or Vraag11 >90 or Vraag12 == "y":
+if ((Vraag1 >=4 or Vraag2 >=5 or Vraag3 >=3) and Vraag4 == "y" and Vraag5 == "y" and Vraag6 == "y" and Vraag8 >10 and Vraag10 >20 and Vraag11 >90 and Vraag12 >150 and Vraag13 == "y" and Vraag14 <=18 and Vraag15 >=1):
  print('U komt in aanmerking voor een sollicitatiegesprek, stuur snel uw CV.')
 
 else:
